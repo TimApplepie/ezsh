@@ -89,6 +89,11 @@ else
     git clone --depth=1 https://github.com/zsh-users/zsh-history-substring-search ~/.config/ezsh/oh-my-zsh/custom/plugins/zsh-history-substring-search
 fi
 
+if [ -d ~/.config/ezsh/oh-my-zsh/custom/plugins/zsh-z ]; then
+    cd ~/.config/ezsh/oh-my-zsh/custom/plugins/zsh-z && git pull
+else
+    git clone --depth=1 https://github.com/agkozak/zsh-z ~/.config/ezsh/oh-my-zsh/custom/plugins/zsh-z
+fi
 
 # INSTALL FONTS
 
