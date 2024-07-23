@@ -42,14 +42,9 @@ Watch this to get an idea of what your Shell (well, life!) could be like!!
 
 
 ## Installation
-Requirements:
-* `git` to clone it.
-
 ``` bash
-apt-get -y install git
-git clone https://github.com/TimApplepie/ezsh
-cd ezsh
-./install.sh 
+apt-get -y install git && git clone https://github.com/TimApplepie/ezsh && cd ezsh && ./install.sh
+
 ```
 This will install the setup under `~/.config/ezsh/`
 Change your terminal's fonts to either "RobotoMono Nerd Font" or "Hack Nerd Font" or "DejaVu Sans Mono Nerd Fonts".

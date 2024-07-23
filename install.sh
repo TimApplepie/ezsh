@@ -16,6 +16,9 @@ do
     esac
 done
 
+apt-get update
+apt-get -y install sudo
+
 if command -v zsh &> /dev/null && command -v git &> /dev/null && command -v wget &> /dev/null; then
     echo -e "ZSH and Git are already installed\n"
 else
