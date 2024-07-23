@@ -56,6 +56,7 @@ fi
 
 cp -f .zshrc ~/
 cp -f ezshrc.zsh ~/.config/ezsh/
+cp -f p10k.zsh ~/.config/ezsh/
 
 mkdir -p ~/.config/ezsh/zshrc         # PLACE YOUR ZSHRC CONFIGURATIONS OVER THERE
 mkdir -p ~/.cache/zsh/                # this will be used to store .zcompdump zsh completion cache files which normally clutter $HOME
