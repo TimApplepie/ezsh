@@ -128,6 +128,7 @@ plugins=(
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -la"
+alias cp="rsync -ah --progress"
 
 # Add to PATH to Install and run programs with "pip install --user"
 export PATH=$PATH:~/.local/bin
